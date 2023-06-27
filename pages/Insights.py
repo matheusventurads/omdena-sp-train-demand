@@ -72,11 +72,8 @@ def run():
         of Brazil and the PTL (Passengers Transported) of Sao Paulo and found out high correlation between them .If we 
         compare PTL with the GDP of 1 month prior, the correlation between GDP and PTL reaches 0.8 .Hence using 1 
         month past GDP can be a very good indicator of the upcoming month's PTL trends. 
-<<<<<<< HEAD
     
-=======
 
->>>>>>> c53fb96f5b381ea0e8d94d7d7d661fe8fae91700
       """)
 
     return None
