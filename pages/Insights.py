@@ -11,7 +11,7 @@ st.markdown('# Insights')
 def run():
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    df = pd.read_csv('data/alllines_ptl_complete.csv', parse_dates=[0], index_col=0, date_format='%Y-%m-%d')
+    df = pd.read_csv('data/alllines_ptl_complete.csv', parse_dates=[0], index_col=0)
     l1 = df[df['line'] == 1]
     l2 = df[df['line'] == 2]
     l15 = df[df['line'] == 15]
