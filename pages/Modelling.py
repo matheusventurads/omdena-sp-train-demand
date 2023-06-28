@@ -71,15 +71,19 @@ def load_artifacts(line):
 #########################
 
 # define page config
+
 st.set_page_config(
-    page_title="Monitoring and Predicting Subway Passenger Demand in São Paulo City Using Machine Learning", 
-    page_icon="img/omdena_logo.png", 
-    layout="wide", 
-    initial_sidebar_state="collapsed", 
-    menu_items=None)
+    page_title='Modelling - Omdena São Paulo Brazil Chapter',
+    layout='wide',
+    initial_sidebar_state='collapsed',
+    page_icon='images/omdena_logo.png',
+    menu_items={'Get Help': 'https://omdena.com/local-chapters/sao-paulo-brazil-chapter/',
+                'Report a bug': 'https://omdena.com/local-chapters/sao-paulo-brazil-chapter/',
+                'About': '###### Developed by Omdena São Paulo, Brazil Local Chapter'}
+)
 
 # define title
-st.title("Predictions and causal inference")
+st.title("Predictions and Causal Inference")
 st.markdown("---")
 
 # create two columns

@@ -3,7 +3,17 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
+st.set_page_config(
+    page_title='Insights - Omdena São Paulo Brazil Chapter',
+    layout='wide',
+    page_icon='images/omdena_logo.png',
+    menu_items={'Get Help': 'https://omdena.com/local-chapters/sao-paulo-brazil-chapter/',
+                'Report a bug': 'https://omdena.com/local-chapters/sao-paulo-brazil-chapter/',
+                'About': '###### Developed by Omdena São Paulo, Brazil Local Chapter'}
+)
+
 st.sidebar.image('images/Omdena-Banner.png')
+
 
 st.markdown('# Insights')
 
@@ -39,7 +49,7 @@ def run():
     plt.legend(['Line 1', 'Line 2', 'Line 3', 'Line 15', 'Line 4', 'Line 5'], fontsize=12)
 
     plt.xlabel("Date")
-    plt.ylabel("Business Day Mean of passengers travelled by Line")
+    plt.ylabel("Business Day Mean of passengers \n travelled by Line")
 
     st.pyplot()
 
