@@ -108,5 +108,5 @@ with col3:
 
             Developed by Indrajith C.
             """)
-        st.button('Open link', on_click=open_page, args=('https://app.powerbi.com/view?r=eyJrIjoiYTRmZGY0NzItYWYxMC00ODY3LThlMDUtNjI5NzJiZWZiMjQ5IiwidCI6IjY1YzgwM2ExLThmYTYtNGVkOC04MTllLWUzODMyMDNkMDBkNSJ9',), key=5)
+        st.button('Open link', on_click=open_page, args=('https://app.powerbi.com/view?r=eyJrIjoiYTRmZGY0NzItYWYxMC00ODY3LThlMDUtNjI5NzJiZWZiMjQ5IiwidCI6IjY1YzgwM2ExLThmYTYtNGVkOC04MTllLWUzODMyMDNkMDBkNSJ9',), key=6)
 
