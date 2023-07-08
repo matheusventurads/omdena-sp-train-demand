@@ -55,6 +55,7 @@ st.markdown(
     * [Rodrigo Vidal Cabral](https://www.linkedin.com/in/rodrigovidalcabral/)
     * [Rodrigo Zambon](https://www.linkedin.com/in/rzambon/)
     * [Rogerio Chaves](https://www.linkedin.com/in/rogerio-chaves/)
+    * [Santhosh Kumar](https://www.linkedin.com/in/santhosh-kumar-aa047824a/)
     * [Saurabh Bhardwaj]()
     * [Tarun Pala](https://www.linkedin.com/in/tarun-pala-8b909a223/)
     * [Vandriele Barbosa](https://www.linkedin.com/in/vandriele-b/)
