@@ -46,3 +46,10 @@ st.markdown(
     machine learning.
     """
 )
+
+column1, column2, column3 = st.columns(3)
+
+with column2:
+    st.markdown("""
+    [GitHub repository](https://github.com/OmdenaAI/sao-paulo-chapter-passenger-demand)
+""")
